@@ -8,8 +8,7 @@
     "ecmaFeatures": {
       "jsx": true
     },
-    "ecmaVersion": 12,
-    "sourceType": "module"
+    "ecmaVersion": 12
   },
   "plugins": ["react", "prettier"],
   "rules": {
@@ -19,6 +18,7 @@
         "endOfLine": "auto"
       }
     ],
+    "react/forbid-prop-types": "off",
     "react/react-in-jsx-scope": "off",
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
     "react/jsx-props-no-spreading": [

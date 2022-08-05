@@ -1,19 +1,4 @@
 /* eslint-disable no-param-reassign */
-/**
-=========================================================
-* Material Kit 2 React - v2.0.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/material-kit-react
-* Copyright 2021 Creative Tim (https://www.creative-tim.com)
-
-Coded by www.creative-tim.com
-
- =========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
-
 import { Fragment, useState, useEffect } from "react";
 
 // react-router components
@@ -487,40 +472,6 @@ function DefaultNavbar({ brand, routes, transparent, light, action, sticky, rela
             mr={center ? "auto" : 0}
           >
             {renderNavbarItems}
-          </MKBox>
-          <MKBox ml={{ xs: "auto", lg: 0 }}>
-            {action &&
-              (action.type === "internal" ? (
-                <MKButton
-                  component={Link}
-                  to={action.route}
-                  variant={
-                    action.color === "white" || action.color === "default"
-                      ? "contained"
-                      : "gradient"
-                  }
-                  color={action.color ? action.color : "info"}
-                  size="small"
-                >
-                  {action.label}
-                </MKButton>
-              ) : (
-                <MKButton
-                  component="a"
-                  href={action.route}
-                  target="_blank"
-                  rel="noreferrer"
-                  variant={
-                    action.color === "white" || action.color === "default"
-                      ? "contained"
-                      : "gradient"
-                  }
-                  color={action.color ? action.color : "info"}
-                  size="small"
-                >
-                  {action.label}
-                </MKButton>
-              ))}
           </MKBox>
           <MKBox
             display={{ xs: "inline-block", lg: "none" }}
