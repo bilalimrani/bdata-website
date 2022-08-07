@@ -8,14 +8,14 @@ import MKTypography from "components/MKTypography";
 import MKButton from "components/MKButton";
 
 // Material Kit 2 React examples
-import DefaultNavbar from "examples/Navbars/DefaultNavbar";
-import DefaultFooter from "examples/Footers/DefaultFooter";
+import DefaultNavbar from "components/DefaultNavbar";
+import DefaultFooter from "components/Footers/DefaultFooter";
 
 // About Us page sections
-import Information from "pages/LandingPages/AboutUs/sections/Information";
-import Team from "pages/LandingPages/AboutUs/sections/Team";
-import Featuring from "pages/LandingPages/AboutUs/sections/Featuring";
-import Newsletter from "pages/LandingPages/AboutUs/sections/Newsletter";
+import Information from "pages/AboutUs/sections/Information";
+import Team from "pages/AboutUs/sections/Team";
+import Featuring from "pages/AboutUs/sections/Featuring";
+import Newsletter from "pages/AboutUs/sections/Newsletter";
 
 // Routes
 import routes from "routes";

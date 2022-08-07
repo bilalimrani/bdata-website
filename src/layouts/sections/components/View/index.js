@@ -34,7 +34,7 @@ import Slide from "@mui/material/Slide";
 
 // Material Kit 2 React components
 import MKBox from "components/MKBox";
-import MKAlert from "components/MKAlert";
+import MKAlert from "components/Alert";
 import MKButton from "components/MKButton";
 import MKTypography from "components/MKTypography";
 
