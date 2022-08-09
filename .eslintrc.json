@@ -12,12 +12,12 @@
   },
   "plugins": ["react", "prettier"],
   "rules": {
-    "prettier/prettier": [
-      "error",
-      {
-        "endOfLine": "auto"
-      }
-    ],
+    // "prettier/prettier": [
+    //   "error",
+    //   {
+    //     "endOfLine": "auto"
+    //   }
+    // ],
     "react/forbid-prop-types": "off",
     "react/react-in-jsx-scope": "off",
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
